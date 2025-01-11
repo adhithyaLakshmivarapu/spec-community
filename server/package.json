@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js"
+    "postinstall": "ls -la && ls server"
   },
   "author": "Aryan Gupta",
   "license": "ISC",
