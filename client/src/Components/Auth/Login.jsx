@@ -90,7 +90,7 @@ export default function Login() {
       <div className='flex flex-col justify-center items-center px-4 py-5 rounded-[30px] max-w-[300px] sm:max-w-[400px] max-h-[600px] bg-white shadow-lg'>
         <form onSubmit={handleSubmit}>
           <h2 className='text-3xl font-semibold mb-1'>Log In</h2>
-          <p className='text-base font-medium mb-4 text-[#727986]'>Enter your details to log into your AskItOut Account:</p>
+          <p className='text-base font-medium mb-4 text-[#727986]'>Enter your details to log into your SPEC COMMUNITY Account:</p>
           <div className='flex flex-col mb-4'>
             <label htmlFor='email' className='text-sm font-semibold mb-2.5'>Email*</label>
             <input id='email' name='email' className='border hover:border-[#0090FC] p-2 rounded-[10px] text-sm font-light h-[30px] focus:outline-none' type="text" placeholder='natasha.rathi@outlook.com' onChange={(e) => { setEmail(e.target.value) }} />
@@ -129,7 +129,7 @@ export default function Login() {
           </div>
           <button type='submit' className='w-full py-1 bg-[#339AF0] my-4 rounded-full'><span className='text-base font-semibold text-white'>Log In</span></button>
           <p className='text-xs text-center'><Link to="/" className='text-[#0090FC] visited:text-[#0090FC]'>Forgot Password?</Link></p>
-          <p className='text-xs text-center my-4'>Don't have a AskItOut account? <Link to="/signup" className='text-[#0090FC] visited:text-[#0090FC]'>Sign Up</Link></p>
+          <p className='text-xs text-center my-4'>Don't have a SPEC COMMUNITY account? <Link to="/signup" className='text-[#0090FC] visited:text-[#0090FC]'>Sign Up</Link></p>
         </form>
       </div>
     </div>
