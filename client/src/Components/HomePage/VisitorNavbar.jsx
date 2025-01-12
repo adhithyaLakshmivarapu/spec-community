@@ -27,7 +27,7 @@ const VisitorNavbar = () => {
             <div className='flex justify-start items-center'>
                 <div id="Title" className='flex justify-center items-center pr-10 md:pr-14 lg:pr-32'>
                     <div id="logo"></div>
-                    <NavLink><div id="name" className='text-[20px] font-bold'>AskItOut</div></NavLink>
+                    <NavLink><div id="name" className='text-[20px] font-bold'>SPEC COMMUNITY</div></NavLink>
                 </div>
                 <div className={`${isMobile ? 'hidden' : 'flex justify-center items-center gap-10 lg:gap-14 text-base font-extralight text-[#cecece]'}`}>
                     <div className='hover:text-white'>Home</div>
