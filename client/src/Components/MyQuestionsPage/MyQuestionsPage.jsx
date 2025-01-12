@@ -64,7 +64,7 @@ const MyQuestionsPage = () => {
                         <TopMenu currentPage='myquestions' fromPage='home' />
                         :
                         <div className='flex justify-between items-center'>
-                            <NavLink to={'/'}><div className='text-2xl font-semibold'>AskItOut</div></NavLink>
+                            <NavLink to={'/'}><div className='text-2xl font-semibold'>SPEC COMMUNITY</div></NavLink>
                             <TopMenu currentPage='myquestions' fromPage='home' />
                         </div>
                 }
