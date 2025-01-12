@@ -1,6 +1,6 @@
-# College Ask It Out App
+# SPEC COMMUNITY App
 
-This project is for helping college students ask their doubts from any senior/student in same field.
+This project is for helping St.Peters Engineering college students ask their doubts from any senior/student in same field.
 
 Project preview: [AskItOut](https://askitout.netlify.app/).
 
